@@ -1,0 +1,93 @@
+.home {
+  padding-top: 52rpx;
+}
+
+.brand-row {
+  display: flex;
+  align-items: center;
+  gap: 20rpx;
+  margin-bottom: 40rpx;
+}
+
+.brand-mark {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 16rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2f624c;
+  color: #ffffff;
+  font-size: 34rpx;
+  font-weight: 800;
+}
+
+.eyebrow {
+  color: #69727d;
+  font-size: 20rpx;
+  letter-spacing: 2rpx;
+}
+
+.title {
+  color: #20242a;
+  font-size: 46rpx;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.today-panel {
+  padding: 36rpx;
+  border: 1rpx solid rgba(32, 36, 42, 0.08);
+  border-radius: 16rpx;
+  background: #ffffff;
+  box-shadow: 0 16rpx 44rpx rgba(34, 49, 63, 0.08);
+}
+
+.panel-title {
+  font-size: 36rpx;
+  font-weight: 800;
+  color: #20242a;
+}
+
+.panel-copy {
+  margin-top: 14rpx;
+  color: #69727d;
+  font-size: 28rpx;
+  line-height: 1.65;
+}
+
+.primary-action {
+  margin-top: 32rpx;
+  height: 88rpx;
+  border-radius: 999rpx;
+  background: #2f624c;
+  color: #ffffff;
+  font-size: 30rpx;
+  font-weight: 700;
+}
+
+.quick-grid {
+  display: grid;
+  gap: 20rpx;
+  margin-top: 28rpx;
+}
+
+.quick-item {
+  padding: 28rpx;
+  border-radius: 16rpx;
+  background: #ffffff;
+  border: 1rpx solid rgba(32, 36, 42, 0.08);
+}
+
+.quick-title {
+  color: #c9694a;
+  font-size: 30rpx;
+  font-weight: 800;
+}
+
+.quick-copy {
+  margin-top: 8rpx;
+  color: #69727d;
+  font-size: 26rpx;
+  line-height: 1.55;
+}

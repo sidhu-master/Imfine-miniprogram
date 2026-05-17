@@ -1,0 +1,26 @@
+<view class="chat-page">
+  <scroll-view class="message-list" scroll-y="true" scroll-into-view="{{scrollTarget}}">
+    <block wx:for="{{messages}}" wx:key="id">
+      <view id="msg-{{item.id}}" class="message-row {{item.role}}">
+        <view class="bubble">
+          <text>{{item.content}}</text>
+        </view>
+      </view>
+    </block>
+    <view id="bottom"></view>
+  </scroll-view>
+
+  <view class="composer">
+    <textarea
+      class="input"
+      value="{{inputText}}"
+      auto-height="true"
+      maxlength="800"
+      placeholder="说说现在的心情"
+      bindinput="onInput"
+      bindconfirm="sendMessage"
+      confirm-type="send"
+    />
+    <button class="send-button" loading="{{sending}}" disabled="{{sending || !inputText}}" bindtap="sendMessage">发送</button>
+  </view>
+</view>

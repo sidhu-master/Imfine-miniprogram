@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/dailyHome/index",
+    "pages/aiCompanion/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f5f7fb",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "无恙每日",
+    "backgroundColor": "#f5f7fb",
+    "backgroundTextStyle": "dark"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

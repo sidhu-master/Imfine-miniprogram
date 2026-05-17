@@ -1,0 +1,30 @@
+<view class="page home">
+  <view class="brand-row">
+    <view class="brand-mark">无</view>
+    <view>
+      <view class="eyebrow">WUYANG DAILY</view>
+      <view class="title">无恙每日</view>
+    </view>
+  </view>
+
+  <view class="today-panel">
+    <view class="panel-title">今日陪伴</view>
+    <view class="panel-copy">把今天的心情、计划或卡住的念头说出来，AI 会陪你慢慢整理。</view>
+    <button class="primary-action" bindtap="openCompanion">开始聊天</button>
+  </view>
+
+  <view class="quick-grid">
+    <view class="quick-item">
+      <view class="quick-title">心情</view>
+      <view class="quick-copy">记录情绪，找到当下最需要照顾的地方。</view>
+    </view>
+    <view class="quick-item">
+      <view class="quick-title">计划</view>
+      <view class="quick-copy">把混乱事项拆成今天可以行动的一小步。</view>
+    </view>
+    <view class="quick-item">
+      <view class="quick-title">复盘</view>
+      <view class="quick-copy">在一天结束时整理发生过的事和新的理解。</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+{
+  "appid": "wx43a98b4b47a98376",
+  "compileType": "miniprogram",
+  "libVersion": "latest",
+  "miniprogramRoot": "miniprogram/",
+  "projectname": "Imfine-miniprogram",
+  "setting": {
+    "coverView": true,
+    "es6": true,
+    "enhance": true,
+    "minified": true,
+    "postcss": true,
+    "showShadowRootInWxmlPanel": true,
+    "urlCheck": true
+  }
+}
