@@ -43,7 +43,7 @@ Page({
     });
 
     wx.request({
-      url: `${app.globalData.apiBase}/mp/ai/companion`,
+      url: `${app.globalData.apiBase}/api/ai/companion`,
       method: "POST",
       data: {
         conversation_id: this.data.conversationId,
